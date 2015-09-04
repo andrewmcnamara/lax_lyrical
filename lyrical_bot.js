@@ -14,7 +14,7 @@ module.exports = function (req, res, next) {
   // avoid infinite loop
   if (userName !== 'slackbot') {
     unirest.get("http://api.lyricsnmusic.com/songs?api_key="+API_KEY+"&lyrics="+lyric).end(function (response){
-    	var context = response.body[0]['context']);
+    	var context = response.body[0]['context'];
 
     return res.status(200).json({text: context});
 	});
