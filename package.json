@@ -18,6 +18,7 @@
   "homepage": "https://github.com/andrewmcnamara/lax_lyrical",
   "dependencies": {
     "express": "~4.13.3",
-    "body-parser": "~1.13.3"
+    "body-parser": "~1.13.3",
+    "unirest": "~0.4.2"
   }
 }

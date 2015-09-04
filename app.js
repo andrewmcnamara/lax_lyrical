@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var hellobot = require('./hellobot');
+var lyricalBot = require('./lyrical_bot.js');
 var app = express();
 var port = process.env.PORT || 3000;
 
@@ -13,6 +14,8 @@ app.get('/', function (req, res) { res.status(200).send('Hello world!') });
 
 // hellobot
 app.post('/hello', hellobot);
+
+app.post('/lyrics', lyricalBot);
 
 // basic error handler
 app.use(function (err, req, res, next) {
