@@ -1,0 +1,23 @@
+{
+  "name": "lax_lyrical",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewmcnamara/lax_lyrical.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewmcnamara/lax_lyrical/issues"
+  },
+  "homepage": "https://github.com/andrewmcnamara/lax_lyrical",
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.13.3"
+  }
+}
